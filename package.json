@@ -7,7 +7,7 @@
     "startMailer": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix Zackery-bayle-react-portfolio",
-    "dev": "concurrently \"npm run client\" \"npm run server\""
+    "start": "concurrently \"npm run client\" \"npm run server\""
   },
   "keywords": [],
   "author": "zbayle <zackery.bayle@gmail.com> (coming soon)",
