@@ -1,0 +1,10 @@
+.btn {
+    @include base-btn();
+}
+
+.content-container {
+    sub{
+        font-size: medium;
+        cursor: pointer;
+    }
+}

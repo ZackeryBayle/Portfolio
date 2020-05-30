@@ -1,0 +1,26 @@
+.content-loader {
+    font-size: 2em;
+    color: $teal;
+}
+
+.footer-no-blog-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 1.5em;
+    color: $teal;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    transition: 0.5s ease-in-out;
+
+    h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        align-items: center;
+    }
+}

@@ -1,0 +1,13 @@
+
+
+body {
+    margin: 0px;
+    margin-bottom: 15px;
+    font-family: 'Exo', sans-serif;
+    font-size: large;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+}

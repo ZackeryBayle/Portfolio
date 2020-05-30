@@ -1,0 +1,9 @@
+body {
+  margin: 0px;
+  font-family: "Exo", sans-serif;
+  font-size: large;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
