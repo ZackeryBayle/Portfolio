@@ -1,10 +1,10 @@
 {
-  "name": "Madlibs",
+  "name": "madlibs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "startMailer": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix Zackery-bayle-react-portfolio",
     "dev": "concurrently \"npm run client\" \"npm run server\""

@@ -1,7 +1,7 @@
 {
   "name": "zackery-bayle-react-potfolio",
   "version": "1.0.0",
-  "proxy": "http://localhost:3002",
+  "proxy": "http://localhost:3000",
   "description": "Personal Portfolio built in React",
   "scripts": {
     "preinstall": "npm set audit false",
@@ -9,12 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",
     "precommit": "eslint src",
-    "prod": "NODE_ENV=production node server.js",
-
-    "startMail": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix Madlibs",
-    "dev": "concurrently \"npm run start\" \"npm run client\""
+    "prod": "NODE_ENV=production node server.js"
 
   },
   "repository": {
